@@ -1,67 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
         <title>Aroofa's Website</title>
-        <link rel="stylesheet" href="style.css">
-        <link href="" rel="stylesheet">
     </head>
     <body>
-        <table border="0"
-        cellpadding="0"
-        cellspacing="10">
-            <tr>
-                <td><img src="https://i.pinimg.com/736x/57/9a/b2/579ab2369ad8e4593c8e72ef9d65916c.jpg" alt ="logo" height="100" width="100"></td>
-                <td><h1>Aroofa Mohammad</h1><h3>B.S. Computer Science at The Unversity of Texas at Dallas - December 2022</h3></td>
-            </tr>
-        </table>
-        <table
-            border="0"
-            cellpadding="0"
-            cellspacing="10">
-            <tr>
-                <td><a href="#">Home</a></td>
-                <td><a href="#">About</a></td>
-                <td><a href="#">Resume</a></td>
-                <td><a href="#">Portfolio</a></td>
-                <td><a href="#">Contact</a></td>
-                <td><a href="#">Blog</a></td>
-            </tr>
-        </table>
-        <hr>
-        <p>Hello, my name is <b>Aroofa Mohammad</b>. I am <i>mainly good</i> at backend development but am learn web design.</p>
-        <table
-            border="0"
-            cellpadding="10"
-            cellspacing="5">
 
-            <tr>
-                <td><button>Udemy Certifications</button></td>
-                <td><button>UTD Certifications</button></td>
-                <td><button>Other Certifications</button></td>
-            </tr>
-        </table>
-        <hr>
-        <h2>Why Me?</h2>
-        <ol>
-            <li>Read-world coding</li>
-            <li>Fun and exciting</li>
-            <li>Affordable</li>
-        </ol>
-        <h4>My favorite current song</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/R3LC-Gx4Llg?si=LTBW_JLgIhN2saDg" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <hr>
-        <h2>Contact Us</h2>
-        <form>
-            Name:<br>
-            <input type="text"><br><br>
-            Email:<br>
-            <input type="text"><br><br>
-            Subject:<br>
-            <input type="text"><br><br>
-            <button>SUBMIT</button>
-            <input type="submit" value="SUBMIT">
-        </form>
+        <nav class="nav">
+            <div class="nav_logo">{ Aroofa }</div>
+            <a href="#" class="nav_hamburger">
+                <span class="nav_hamburger__line"></span>
+                <span class="nav_hamburger__line"></span>
+                <span class="nav_hamburger__line"></span>
+                <span class="nav_hamburger__line"></span>
+                <span class="nav_hamburger__line"></span>
+            </a>
+            <div class="nav_menu">
+                <ul>
+                    <li class="nav_menu__link"><a href="#home">Home</a></li>
+                    <li class="nav_menu__link"><a href="#about">About Me</a></li>
+                    <li class="nav_menu__link"><a href="#resume">Resume</a></li>
+                    <li class="nav_menu__link"><a href="#projects">Projects</a></li>
+                    <li class="nav_menu__link"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="bg"></div>
+
+        <section id="home" class="home">
+            <h1>Hi, I'm Aroofa Mohammad</h1>
+            <h2>Infrastructure Engineer</h2>
+            <p>
+                I build and support reliable technology solutions through 
+                infrastructure, networking, cloud technologies, and automation.
+                I enjoy solving complex problems and continuously expanding my 
+                technical skills.
+            </p>
+        </section>
+
+        <section id="about" class="about">
+            <h1>My Story</h1>
+            <p>
+                I was born and raised in Austin, Texas, where my journey into technology 
+                started in 6th grade when I joined my school's robotics team. I didn't 
+                know it at the time, but building robots would eventually turn into a 
+                career of writing code, solving problems, and occasionally asking 
+                "why is this not working?" for way longer than I want to admit.
+            </p>
+            <p>
+                I continued developing my skills at The University of Texas at Dallas, 
+                where I earned my Bachelor's degree in Computer Science. During my time 
+                at UTD, I strengthened my technical abilities while learning the 
+                importance of collaboration, teamwork, and building solutions with others.
+            </p>
+            <p>
+                After graduating, I returned to Austin and began my professional career 
+                at Eagle Eye Networks Inc. There, I gained hands-on experience working 
+                with computer networks, Linux systems, troubleshooting, and enterprise 
+                technology solutions. This opportunity allowed me to apply what I learned 
+                in school to real-world infrastructure and networking challenges.
+            </p>
+            <p>
+                Now I'm continuing to grow as an Infrastructure Engineer, exploring 
+                cloud technologies, automation, and new challenges. And yes, I still 
+                believe Austin has the best food, best music, and the best excuse for 
+                being late: "I got stuck on I-35."
+            </p>
+        </section>
+
+
+
     </body>
 </html>
